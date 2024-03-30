@@ -20,6 +20,7 @@ class Menu:
         while True:
             self.window.blit(source=self.surf, dest=self.rect)  # Define uma imagem e a posição para ser desenhada
             self.menu_text(50, "Mountain", (255, 128, 0), ((WIN_WIDTH / 2), 70))
+            self.menu_text(50, "Shooter", (255, 128, 0), ((WIN_WIDTH / 2), 70))
             pygame.display.flip()  # Atualiza a tela para a imagem aparecer
         pass
 
